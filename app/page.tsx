@@ -198,6 +198,21 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Mobile Portrait - Below content */}
+          <div className="lg:hidden absolute bottom-0 right-0 left-0 h-32 sm:h-40 overflow-hidden">
+            <div className="relative w-full h-full">
+              <img
+                src="/nanhuaijin.jpg"
+                alt="南怀瑾先生肖像"
+                className="w-full h-full object-cover object-top blur-[1px] grayscale-[40%] opacity-30"
+                loading="eager"
+                decoding="async"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/40 to-white/80"></div>
+            </div>
+          </div>
+
           <div className="relative container-custom px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-900 mb-4 sm:mb-6 animate-fade-in relative z-10 leading-tight">

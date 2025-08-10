@@ -144,4 +144,45 @@
   opacity: 0.8 !important;
   transform: translateY(-2px);
   transition: all 0.3s ease;
-}
+}  /* 移动端优化 
+*/
+  .mobile-menu-backdrop {
+    @apply fixed inset-0 bg-black/20 backdrop-blur-sm z-40;
+  }
+
+  .mobile-menu-panel {
+    @apply fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white shadow-xl sm:max-w-sm;
+  }
+
+  /* 触摸优化 */
+  @media (hover: none) and (pointer: coarse) {
+    .hover\:scale-105:hover {
+      transform: none;
+    }
+    
+    .card-elegant:hover {
+      transform: none;
+    }
+  }
+
+  /* 移动端按钮优化 */
+  @media (max-width: 640px) {
+    .btn-primary, .btn-secondary {
+      @apply min-h-[44px] px-4 py-3 text-base;
+    }
+  }
+
+  /* 移动端导航链接优化 */
+  .nav-link {
+    @apply text-primary-700 hover:text-primary-900 font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-primary-50;
+  }
+
+  /* 移动端头像显示优化 */
+  .portrait-mobile {
+    @apply relative overflow-hidden rounded-lg;
+  }
+
+  .portrait-mobile::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent;
+  }
