@@ -1,0 +1,21 @@
+{
+  "name": "南怀瑾文化传承网",
+  "short_name": "南怀瑾文化",
+  "description": "传统智慧的现代传播 - 深入了解南怀瑾先生的思想智慧",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#b8904a",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "books": [
+    {
+      "id": "analects",
+      "title": "论语别裁",
+      "subtitle": "南怀瑾先生解读儒家经典",
+      "description": "以现代人的眼光重新解读《论语》，深入浅出地阐释孔子思想的现代价值。",
+      "category": "儒家经典",
+      "difficulty": "初级",
+      "pages": 520,
+      "publishYear": 1976,
+      "tags": ["论语", "儒家", "人生智慧", "修养"],
+      "keyPoints": [
+        "孔子思想的现代解读",
+        "儒家修身养性之道",
+        "为人处世的智慧",
+        "教育理念的传承"
+      ],
+      "readingGuide": "建议配合原文对照阅读，重点关注南师对经典语句的现代阐释。"
+    },
+    {
+      "id": "mencius",
+      "title": "孟子旁通",
+      "subtitle": "解读亚圣思想精髓",
+      "description": "深入解析孟子的仁政思想和性善论，展现儒家思想的深层内涵。",
+      "category": "儒家经典",
+      "difficulty": "中级",
+      "pages": 480,
+      "publishYear": 1991,
+      "tags": ["孟子", "性善论", "仁政", "儒家哲学"],
+      "keyPoints": [
+        "性善论的深度解析",
+        "仁政思想的现代意义",
+        "修身齐家治国平天下",
+        "儒家政治哲学"
+      ],
+      "readingGuide": "需要一定的古文基础，建议先读《论语别裁》再读此书。"
+    },
+    {
+      "id": "diamond-sutra",
+      "title": "金刚经说什么",
+      "subtitle": "般若智慧的现代阐释",
+      "description": "用现代语言解读《金刚经》的般若智慧，让深奥的佛理变得通俗易懂。",
+      "category": "佛学经典",
+      "difficulty": "中级",
+      "pages": 380,
+      "publishYear": 1995,
+      "tags": ["金刚经", "般若", "佛学", "空性"],
+      "keyPoints": [
+        "般若空性的理解",
+        "无相布施的智慧",
+        "破除我执法执",
+        "修行的究竟目标"
+      ],
+      "readingGuide": "佛学入门经典，建议反复阅读，每次都会有新的体悟。"
+    },
+    {
+      "id": "meditation-practice",
+      "title": "静坐修道与长生不老",
+      "subtitle": "传统修行方法的科学解读",
+      "description": "结合传统修行方法和现代科学，详细介绍静坐修道的理论与实践。",
+      "category": "修行实践",
+      "difficulty": "高级",
+      "pages": 420,
+      "publishYear": 1973,
+      "tags": ["静坐", "修道", "养生", "实修"],
+      "keyPoints": [
+        "静坐的正确方法",
+        "修行中的身心变化",
+        "传统养生智慧",
+        "修道的科学原理"
+      ],
+      "readingGuide": "实修指导书籍，需要在实践中体验和理解，建议有经验指导。"
+    },
+    {
+      "id": "i-ching",
+      "title": "易经杂说",
+      "subtitle": "周易智慧的生活应用",
+      "description": "以轻松的笔调解读《易经》，展现古代智慧在现代生活中的应用价值。",
+      "category": "易学经典",
+      "difficulty": "中级",
+      "pages": 350,
+      "publishYear": 1984,
+      "tags": ["易经", "周易", "占卜", "哲学"],
+      "keyPoints": [
+        "易经的基本原理",
+        "八卦的象征意义",
+        "变化规律的认识",
+        "决策智慧的运用"
+      ],
+      "readingGuide": "可作为易学入门读物，重点理解变化的哲学思想。"
+    },
+    {
+      "id": "tao-te-ching",
+      "title": "老子他说",
+      "subtitle": "道德经的现代解读",
+      "description": "深入浅出地解读《道德经》，揭示老子思想的深层智慧和现代价值。",
+      "category": "道家经典",
+      "difficulty": "中级",
+      "pages": 460,
+      "publishYear": 1992,
+      "tags": ["老子", "道德经", "道家", "无为"],
+      "keyPoints": [
+        "道的本质理解",
+        "无为而治的智慧",
+        "柔弱胜刚强",
+        "返璞归真的境界"
+      ],
+      "readingGuide": "道家思想入门经典，建议结合生活实际来理解其中的智慧。"
+    }
+  ],
+  "categories": [
+    {
+      "id": "confucian",
+      "name": "儒家经典",
+      "description": "修身齐家治国平天下的人生智慧"
+    },
+    {
+      "id": "buddhist",
+      "name": "佛学经典", 
+      "description": "觉悟人生，解脱烦恼的修行指导"
+    },
+    {
+      "id": "taoist",
+      "name": "道家经典",
+      "description": "顺应自然，无为而治的生活哲学"
+    },
+    {
+      "id": "practice",
+      "name": "修行实践",
+      "description": "具体的修行方法和实践指导"
+    },
+    {
+      "id": "yijing",
+      "name": "易学经典",
+      "description": "变化规律和决策智慧的古代学问"
+    }
+  ]
+}
