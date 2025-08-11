@@ -185,4 +185,86 @@
   .portrait-mobile::after {
     content: '';
     @apply absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent;
+  }  /*
+ 背景音乐控制面板样式 */
+  .music-controls {
+    @apply fixed bottom-4 right-4 z-50;
+  }
+
+  .music-panel {
+    @apply bg-white/90 backdrop-blur-sm border border-primary-200 rounded-lg shadow-lg p-2;
+  }
+
+  .music-button {
+    @apply p-2 text-primary-600 hover:text-primary-800 hover:bg-primary-50 rounded-lg transition-colors;
+  }
+
+  /* 音量滑块样式优化 */
+  .volume-slider {
+    @apply w-16 h-2 bg-primary-200 rounded-lg appearance-none cursor-pointer;
+  }
+
+  .volume-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #b8904a;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .volume-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #b8904a;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  /* 播放状态动画 */
+  .music-visualizer {
+    @apply flex space-x-1;
+  }
+
+  .music-bar {
+    @apply w-1 h-4 bg-primary-500 rounded;
+    animation: musicPulse 1.5s ease-in-out infinite;
+  }
+
+  .music-bar:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .music-bar:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes musicPulse {
+    0%, 100% {
+      transform: scaleY(0.5);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  /* 移动端音乐控制优化 */
+  @media (max-width: 640px) {
+    .music-controls {
+      @apply bottom-2 right-2;
+    }
+    
+    .music-panel {
+      @apply p-1.5;
+    }
+    
+    .music-button {
+      @apply p-1.5;
+    }
   }
