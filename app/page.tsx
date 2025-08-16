@@ -27,6 +27,13 @@ const features = [
     color: 'from-secondary-500 to-secondary-600'
   },
   {
+    name: '修习文章',
+    description: '南怀瑾先生的修习指导文章，包含实修要领和重要开示',
+    icon: BookOpen,
+    href: '/articles',
+    color: 'from-purple-500 to-purple-600'
+  },
+  {
     name: '实修工具',
     description: '实用的修行工具和日常指导，将智慧融入生活实践',
     icon: Lightbulb,
@@ -270,7 +277,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
               {features.map((feature, index) => {
                 const IconComponent = feature.icon
                 return (

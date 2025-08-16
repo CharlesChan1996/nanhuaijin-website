@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '/learning/beginner', priority: 0.8, changeFrequency: 'weekly' as const },
     { url: '/learning/intermediate', priority: 0.8, changeFrequency: 'weekly' as const },
     { url: '/learning/advanced', priority: 0.8, changeFrequency: 'weekly' as const },
+    { url: '/articles', priority: 0.9, changeFrequency: 'weekly' as const },
+    { url: '/articles/zhunti-practice-guide', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/practice/meditation', priority: 0.7, changeFrequency: 'weekly' as const },
     { url: '/practice/daily', priority: 0.7, changeFrequency: 'weekly' as const },
     { url: '/practice/reading', priority: 0.7, changeFrequency: 'weekly' as const },

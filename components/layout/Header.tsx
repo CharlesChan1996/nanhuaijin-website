@@ -2,13 +2,14 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Menu, X, Search, BookOpen, Users, Compass } from 'lucide-react'
+import { Menu, X, Search, BookOpen, Users, Compass, FileText } from 'lucide-react'
 
 const navigation = [
   { name: '首页', href: '/', icon: BookOpen },
   { name: '文化介绍', href: '/culture', icon: Compass },
   { name: '经典著作', href: '/books', icon: BookOpen },
   { name: '学习指导', href: '/learning', icon: Users },
+  { name: '修习文章', href: '/articles', icon: FileText },
   { name: '实修工具', href: '/tools', icon: Compass },
 ]
 
